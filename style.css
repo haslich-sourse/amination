@@ -15,8 +15,8 @@
     align-items: center;
     border-radius: 10px;
     overflow: hidden;
-    opacity: 0; /* Изначально скрываем баннер */
-    transform: translateY(20px); /* Начальная позиция для анимации появления */
+    opacity: 1; /* Устанавливаем начальную видимость */
+    transform: translateY(0); /* Начальная позиция для анимации появления */
     animation: fadeIn 1s ease-out, pulse 2s infinite; /* Применяем обе анимации */
 }
 
